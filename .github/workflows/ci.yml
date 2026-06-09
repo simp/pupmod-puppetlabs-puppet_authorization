@@ -26,4 +26,4 @@ jobs:
     uses: "puppetlabs/cat-github-actions/.github/workflows/module_acceptance.yml@main"
     secrets: "inherit"
     with:
-      flags: --platform-exclude 'Ubuntu-22.04-arm|RedHat-9-arm'
+      flags: --arch-exclude 'arm'
