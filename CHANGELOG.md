@@ -5,11 +5,26 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
-## [v1.0.0](https://github.com/puppetlabs/puppetlabs-puppet_authorization/tree/v1.0.0) - 2024-04-13
+## [v1.0.1](https://github.com/puppetlabs/puppetlabs-puppet_authorization/tree/v1.0.1) - 2026-07-21
+
+[Full Changelog](https://github.com/puppetlabs/puppetlabs-puppet_authorization/compare/v1.0.0...v1.0.1)
+
+### Fixed
+
+- Change flag option in CI workflow [#56](https://github.com/puppetlabs/puppetlabs-puppet_authorization/pull/56) ([zaben903](https://github.com/zaben903))
+
+### Other
+
+- (MODULES-11840) Allow puppetlabs/stdlib 10.x [#57](https://github.com/puppetlabs/puppetlabs-puppet_authorization/pull/57) ([imaqsood](https://github.com/imaqsood))
+- puppetlabs/concat: Allow 10.x [#55](https://github.com/puppetlabs/puppetlabs-puppet_authorization/pull/55) ([bastelfreak](https://github.com/bastelfreak))
+- Create LICENSE [#52](https://github.com/puppetlabs/puppetlabs-puppet_authorization/pull/52) ([binford2k](https://github.com/binford2k))
+
+## [v1.0.0](https://github.com/puppetlabs/puppetlabs-puppet_authorization/tree/v1.0.0) - 2024-04-12
 
 [Full Changelog](https://github.com/puppetlabs/puppetlabs-puppet_authorization/compare/0.5.1...v1.0.0)
 
 ### Changed
+
 - Drop support for Puppet < 7 [#46](https://github.com/puppetlabs/puppetlabs-puppet_authorization/pull/46) ([h0tw1r3](https://github.com/h0tw1r3))
 - Drop unsupported operating systems [#44](https://github.com/puppetlabs/puppetlabs-puppet_authorization/pull/44) ([h0tw1r3](https://github.com/h0tw1r3))
 
