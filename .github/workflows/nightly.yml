@@ -16,4 +16,5 @@ jobs:
     uses: "puppetlabs/cat-github-actions/.github/workflows/module_acceptance.yml@main"
     secrets: "inherit"
     with:
+      disable_apparmor: true
       flags: --arch-exclude 'arm'
